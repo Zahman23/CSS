@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+#biodata {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: gainsboro;
+  width: 50%;
+  margin: auto;
+  border-radius: 15px;
+  box-shadow: 5px 5px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+#biodata .informasi {
+  display: flex;
+  margin-bottom: 1rem;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.informasi img {
+  border-radius: 20px;
+}
+
+.informasi .data {
+  font-size: 18px;
+}
+
+.informasi .data .judul {
+  font-weight: 600;
+  float: left;
+}
+
+.informasi .data .isi {
+    padding-left: 10px;
+    white-space: nowrap;
+}
+
+.cerita p {
+  font-size: 16px;
+  font-weight: 550;
+}

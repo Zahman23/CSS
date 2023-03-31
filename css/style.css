@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: gray;
+}
+
+#tabel-siswa {
+  border-collapse: collapse;
+  background-image: url(../background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  border: 1px solid gray;
+
+  margin: auto;
+}
+
+.link {
+  color: red;
+  text-decoration: none;
+}
+
+#tabel-siswa h3 {
+  font-size: 32px;
+}
+
+#tabel-siswa td {
+  padding: 20px;
+}
+
+/* BUDI */
